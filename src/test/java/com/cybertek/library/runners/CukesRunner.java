@@ -9,8 +9,8 @@ import org.junit.runner.RunWith;
         plugin ="html:target/cucumber-report.html",
         features = "src/test/resources/features",
          glue = "com/cybertek/library/step_definitions",
-        dryRun = true,
-      tags= " @smartbear4"
+        dryRun = false,
+      tags= "@smartbear3"
         )
 
 public class CukesRunner {
