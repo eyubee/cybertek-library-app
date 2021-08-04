@@ -87,33 +87,20 @@ LibraryPage libraryPage= new LibraryPage();
 public void tear_down(){
     Driver.closeDriver();
 }
-
-
-
-
-
-
-
-
-
     @When("user login as librarian")
     public void user_login_as_librarian() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+
     }
     @Then("librarian homepage is displayed")
     public void librarian_homepage_is_displayed() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+
     }
     @When("user login as student")
     public void user_login_as_student() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+
     }
     @Then("student homepage is displayed")
     public void student_homepage_is_displayed() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+
     }
 }
